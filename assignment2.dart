@@ -14,8 +14,9 @@ String studentGrade(String studentName, int testScore) {
   }
   else if (testScore <= 69 && testScore >= 60) {
     return "D";
-  }else if (testScore <= 59 && testScore >= 0) {
-    return "D";
+  }
+  else if (testScore <= 59 && testScore >= 0) {
+    return "F";
   }
   else {
     return "Invalid Grade";
