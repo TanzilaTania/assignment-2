@@ -1,7 +1,7 @@
 
 
 
-String studentGrade(String name, int testScore) {
+String studentGrade(String studentName, int testScore) {
 
   if (testScore <= 100 && testScore >= 90 ) {
     return "A";
